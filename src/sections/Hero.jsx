@@ -9,6 +9,8 @@ import Target from "../components/Target";
 import ReactLogo from "../components/ReactLogo";
 import Cube from "../components/Cube";
 import Rings from "../components/Rings";
+import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 
 const Hero = () => {
     const binaryText = "01001000 01100001 01101100 01101100 01101111 00100001"
@@ -17,9 +19,9 @@ const Hero = () => {
     const [isTransitioning, setIsTransitioning] = useState(false)
     const textRef = useRef(null)
 
-    const isSmall = useMediaQuery({maxWidth: 440})
-    const isMobile = useMediaQuery({maxWidth: 768})
-    const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024})
+    const isSmall = useMediaQuery({ maxWidth: 440 })
+    const isMobile = useMediaQuery({ maxWidth: 768 })
+    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 })
 
     const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
@@ -70,11 +72,11 @@ const Hero = () => {
     }, [])
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative bg-black">
-            <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 items-center c-space gap-3">
+        <section className="min-h-screen w-full flex flex-col relative" id="home">
+            <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p
                     ref={textRef}
-                    className={`sm:text-3xl text-1xl font-medium text-center font-generalsans transition-all duration-300 ${isTransitioning ? "text-cyan-500 matrix-effect" : "text-cyan-600 matrix-effect"}`}
+                    className={`sm:text-3xl text-xl font-medium text-center font-generalsans transition-all duration-300 ${isTransitioning ? "text-cyan-500 matrix-effect" : "text-cyan-600 matrix-effect"}`}
                 >
                     {currentText}
                     <span className="waving-hand">👋🏻</span>
@@ -85,32 +87,45 @@ const Hero = () => {
 
             <div className="w-full h-full absolute inset-0">
                 <Canvas className="w-full h-full">
-                    <Suspense fullback={<CanvasLoader />}>
+                    <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-                        <HackerRoom
-                            position={sizes.deskPosition}
-                            rotation={[0, Math.PI, 0]}
-                            scale={sizes.deskScale}
-                        />
+
+                        <HeroCamera isMobile={isMobile}>
+                            <HackerRoom
+                                scale={sizes.deskScale}
+                                position={sizes.deskPosition}
+                                rotation={[0.1, -Math.PI, 0]}
+                            />
+                        </HeroCamera>
 
                         <group>
                             <Target position={sizes.targetPosition} />
                             <ReactLogo position={sizes.reactLogoPosition} />
+                            {/* <Rings position={sizes.ringPosition} scale={0.5} /> */}
                             <Cube position={sizes.cubePosition} />
-                            <Rings position={sizes.ringPosition} />
                         </group>
 
                         <ambientLight intensity={1} />
 
                         <directionalLight
                             position={[10, 10, 10]}
-                            intensity={isMobile ? 0.07 : 0.1}
+                            intensity={0.5}
                         />
                     </Suspense>
                 </Canvas>
+            </div>
+
+            <div className="absolute bottom-7 left-0 right-0 w-full z-0 c-space">
+                <a href="#contact" className="w-fit">
+                    <Button 
+                        name="Let's work together"
+                        isBeam
+                        containerClass='sm:w-fit w-full sm:min-w-96'
+                    />
+                </a>
             </div>
         </section>
     );
 };
 
-export default Hero;
+export default Hero
