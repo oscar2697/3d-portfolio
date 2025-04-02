@@ -188,29 +188,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Remote Software Development',
+        name: 'B1Soft Latinoamerica',
         pos: 'Front End Developer',
         duration: 'July 2022 - July 2023',
         title: "During this period, I worked remotely, collaborating with teams across different time zones to develop scalable and efficient software solutions. I focused on writing clean code, optimizing performance, and continuously improving my technical skills to enhance development workflows.",
-        icon: '/assets/framer.svg',
+        icon: '/assets/b1soft.svg',
         animation: 'victory',
-    },
-    {
-        id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
-        animation: 'clapping',
-    },
-    {
-        id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
-        animation: 'salute',
     },
 ]
