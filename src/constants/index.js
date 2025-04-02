@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Drinks Menu',
+        desc: 'Drinks Menu Explorer is an innovative web app that enhances the way users discover and create cocktail recipes. By integrating AI-powered recipe generation with OpenRouter and a vast database from TheCocktailDB, it provides a seamless and interactive experience for cocktail enthusiasts.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Built with React, TypeScript, Vite, Redux Toolkit, Tailwind CSS, and OpenRouter for AI-generated recipes, Drinks Menu Explorer offers a fast, responsive, and user-friendly interface for exploring, saving, and creating cocktail recipes.',
+        href: 'https://github.com/oscar2697/drinks_menu',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'ByteBox',
+        desc: 'ByteBox is a powerful file-sharing and storage web app designed for seamless and secure file management. It allows users to upload, organize, and share files efficiently, ensuring data security and accessibility.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'Built with Next.js, TypeScript, Tailwind CSS, and a modular architecture, ByteBox offers a responsive and user-friendly interface for managing files with ease and security.',
+        href: 'https://github.com/oscar2697/byteBox',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
@@ -132,11 +132,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Meeting Room',
+        desc: 'A collaborative meeting room management system designed to optimize workspace organization. It streamlines room reservations, schedule coordination, and real-time availability tracking, offering a user-friendly interface for teams and employees.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+            'Built with scalability in mind, the platform integrates dynamic calendars, automated notifications, and role-based access controls using modern tools like Next.js, TypeScript, Tailwind CSS, and Appwrite to ensure reliability and seamless team collaboration.',
+        href: 'https://github.com/oscar2697/meeting_room',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -171,11 +171,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'UpTask',
+        desc: 'UpTask is a comprehensive task management platform that offers users a centralized dashboard for organizing and collaborating on projects. It allows users to create tasks, assign them to team members, monitor progress in real-time, and manage multiple projects seamlessly.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'Built with React, Node.js, Express.js, and Socket.io, UpTask integrates real-time collaboration and task tracking, ensuring a smooth and secure experience tailored to modern teams seeking enhanced productivity and efficient project management.',
+        href: 'https://github.com/oscar2697/uptask_frontend',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -184,43 +184,6 @@ export const myProjects = [
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
         spotlight: '/assets/spotlight4.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
         tags: [
             {
                 id: 1,
