@@ -188,10 +188,10 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+        name: 'Remote Software Development',
+        pos: 'Front End Developer',
+        duration: 'July 2022 - July 2023',
+        title: "During this period, I worked remotely, collaborating with teams across different time zones to develop scalable and efficient software solutions. I focused on writing clean code, optimizing performance, and continuously improving my technical skills to enhance development workflows.",
         icon: '/assets/framer.svg',
         animation: 'victory',
     },
