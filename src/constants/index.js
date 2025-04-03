@@ -193,6 +193,6 @@ export const workExperiences = [
         duration: 'July 2022 - July 2023',
         title: "During this period, I worked remotely, collaborating with teams across different time zones to develop scalable and efficient software solutions. I focused on writing clean code, optimizing performance, and continuously improving my technical skills to enhance development workflows.",
         icon: '/assets/b1soft.svg',
-        animation: 'victory',
+        animation: 'salute',
     },
 ]
