@@ -269,15 +269,6 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'B1Soft Latinoamerica',
-        pos: 'Front End Developer',
-        duration: 'July 2022 - July 2023',
-        title: "During this period, I worked remotely, collaborating with teams across different time zones to develop scalable and efficient software solutions. I focused on writing clean code, optimizing performance, and continuously improving my technical skills to enhance development workflows.",
-        icon: '/assets/b1soft.svg',
-        animation: 'salute',
-    },
-    {
-        id: 2,
         name: 'Compusoftn et Cia Ltda – Unidad Educativa "Distrito Metropolitano"',
         pos: 'Full Stack Developer Intern',
         duration: 'April 2024 - May 2024',
@@ -285,4 +276,13 @@ export const workExperiences = [
         icon: '/assets/project-logo5.jpg',
         animation: 'clapping',
     },    
+    {
+        id: 2,
+        name: 'B1Soft Latinoamerica',
+        pos: 'Front End Developer',
+        duration: 'July 2022 - July 2023',
+        title: "During this period, I worked remotely, collaborating with teams across different time zones to develop scalable and efficient software solutions. I focused on writing clean code, optimizing performance, and continuously improving my technical skills to enhance development workflows.",
+        icon: '/assets/b1soft.svg',
+        animation: 'salute',
+    },
 ]
