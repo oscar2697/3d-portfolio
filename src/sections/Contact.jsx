@@ -62,7 +62,7 @@ const Contact = () => {
                 />
 
                 <div className='contact-container'>
-                    <h3 className='head-text'>Get in Kontakt</h3>
+                    <h3 className='head-text'>Get in Contact</h3>
 
                     <p className='text-lg text-white-600 mt-3'>
                         Whether you need to develop a new application,
@@ -119,7 +119,7 @@ const Contact = () => {
                             type='submit'
                             disabled={loading}
                         >
-                            {loading ? 'Sending...' : 'Schick a Message'}
+                            {loading ? 'Sending...' : 'Send a Message'}
 
                             <img
                                 src='/assets/arrow-up.png'

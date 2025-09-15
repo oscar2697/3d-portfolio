@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 
 const Greeting = () => {
     const binaryText = "01001000 01100001 01101100 01101100 01101111 00100001"
-    const finalText = "Hallo! I'm Oscar"
+    const finalText = "Hello! I'm Oscar"
     const [currentText, setCurrentText] = useState(binaryText)
     const [isTransitioning, setIsTransitioning] = useState(false)
     const textRef = useRef(null)
@@ -67,7 +67,7 @@ const Greeting = () => {
                 </p>
             </div>
 
-            <p className="hero_tag text-gray_gradient text-center">Coding Apps mit Passion und solving Probleme, one line at a time!</p>
+            <p className="hero_tag text-gray_gradient text-center">Coding Apps with Passion and solving Problems, one line at a time!</p>
         </div>
     )
 }

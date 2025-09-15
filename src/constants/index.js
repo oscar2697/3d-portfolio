@@ -23,13 +23,62 @@ export const navLinks = [
 
 export const myProjects = [
     {
-        title: 'Drinks Menu',
-        desc: 'Drinks Menu Explorer is an innovative web app that enhances the way users discover and create cocktail recipes. By integrating AI-powered recipe generation with OpenRouter and a vast database from TheCocktailDB, it provides a seamless and interactive experience for cocktail enthusiasts.',
+        title: 'Audio CNN - Sound Classification System',
+        desc: 'Audio CNN is a deep learning project for environmental sound classification using a ResNet-based Convolutional Neural Network on the ESC-50 dataset',
         subdesc:
-            'Built with React, TypeScript, Vite, Redux Toolkit, Tailwind CSS, and OpenRouter for AI-generated recipes, Drinks Menu Explorer offers a fast, responsive, and user-friendly interface for exploring, saving, and creating cocktail recipes.',
-        href: 'https://github.com/oscar2697/drinks_menu',
-        texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+            `Real-time audio classification via a modern React frontend,\n` +
+            `Mel-spectrogram processing with data augmenta,\n` +
+            `Visualizations of CNN feature maps and predictions,\n` +
+            `Serverless deployment for scalable training and inference.\n` + 
+            `This project demonstrates expertise in deep learning, full-stack development, and interactive AI-powered web applications.`,
+        href: 'https://github.com/oscar2697/cnn_neuralnetwork',
+        texture: '/textures/project/project6.mp4',
+        logo: '/assets/project-logo6.svg',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'NextJS',
+                path: '/assets/nextjs.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'Python',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Python',
+                path: '/assets/python.svg',
+            },
+            {
+                id: 5,
+                name: 'Modal',
+                path: '/assets/modal.jpg',
+            },
+        ],
+    },
+    {
+        title: 'BankApp',
+        desc: 'BankApp is a modern and secure banking application with 200 users, built with the MERN stack (MongoDB, Express.js, React.js, Node.js). Designed for a seamless user experience, it features:',
+        subdesc:
+            `Role-based authentication and secure JWT-based login,\n` +
+            `Atomic fund transfers with comprehensive validation,\n` +
+            `Real-time notifications and transaction history,\n` +
+            `Elegant React frontend with Tailwind CSS and robust Node.js backend. `,
+        href: 'https://github.com/oscar2697/BankApp',
+        texture: '/textures/project/project5.mp4',
+        logo: '/assets/project-logo5.jpg',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -54,8 +103,13 @@ export const myProjects = [
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'NodeJS',
+                path: '/assets/nodejs.svg',
+            },
+            {
+                id: 5,
+                name: 'ExpressJS',
+                path: '/assets/expressjs.png',
             },
         ],
     },
@@ -76,8 +130,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'NextJS',
+                path: '/assets/nextjs.svg',
             },
             {
                 id: 2,
@@ -88,11 +142,6 @@ export const myProjects = [
                 id: 3,
                 name: 'TypeScript',
                 path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
             },
         ],
     },
@@ -115,8 +164,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'NextJS',
+                path: '/assets/nextjs.svg',
             },
             {
                 id: 2,
@@ -127,11 +176,6 @@ export const myProjects = [
                 id: 3,
                 name: 'TypeScript',
                 path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
             },
         ],
     },
@@ -167,8 +211,45 @@ export const myProjects = [
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'NodeJS',
+                path: '/assets/nodejs.svg',
+            },
+            {
+                id: 5,
+                name: 'ExpressJS',
+                path: '/assets/expressjs.png',
+            },
+        ],
+    },
+    {
+        title: 'Drinks Menu',
+        desc: 'Drinks Menu Explorer is an innovative web app that enhances the way users discover and create cocktail recipes. By integrating AI-powered recipe generation with OpenRouter and a vast database from TheCocktailDB, it provides a seamless and interactive experience for cocktail enthusiasts.',
+        subdesc:
+            'Built with React, TypeScript, Vite, Redux Toolkit, Tailwind CSS, and OpenRouter for AI-generated recipes, Drinks Menu Explorer offers a fast, responsive, and user-friendly interface for exploring, saving, and creating cocktail recipes.',
+        href: 'https://github.com/oscar2697/drinks_menu',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
             },
         ],
     },
@@ -195,4 +276,13 @@ export const workExperiences = [
         icon: '/assets/b1soft.svg',
         animation: 'salute',
     },
+    {
+        id: 2,
+        name: 'Compusoftn et Cia Ltda – Unidad Educativa "Distrito Metropolitano"',
+        pos: 'Full Stack Developer Intern',
+        duration: 'April 2024 - May 2024',
+        title: "During my internship, I designed and developed a community banking web application actively used by over 200 users. I built the system end-to-end, implementing a backend with Node.js and MongoDB, and a responsive frontend using React.js, TailwindCSS, and Redux. I also deployed the application to cloud platforms (Render & Vercel), ensuring scalability, security, and real-world usability while strengthening my full-stack development skills.",
+        icon: '/assets/project-logo5.jpg',
+        animation: 'clapping',
+    },    
 ]
