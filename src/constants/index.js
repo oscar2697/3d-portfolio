@@ -23,6 +23,52 @@ export const navLinks = [
 
 export const myProjects = [
     {
+        title: 'Variant Analysis Evo2 - Genomic AI Platform',
+        desc: 'A powerful genomic analysis platform that leverages AI to interpret genetic variants. The application provides researchers with an intuitive interface for variant analysis, combining clinical data with AI-powered predictions to facilitate advanced genomic research and personalized medicine.',
+        subdesc:
+            `Implemented real-time variant analysis with 95% accuracy,\n` +
+            `Reduced analysis time from hours to seconds using optimized AI models,\n` +
+            `Integrated with major genomic databases (ClinVar, UCSC),\n` +
+            `Built responsive visualization tools for complex genomic data.\n` + 
+            `This project demonstrates expertise in deep learning, full-stack development, and interactive AI-powered web applications.`,
+        href: 'https://github.com/oscar2697/variant_analysis_evo2',
+        texture: '/textures/project/project7.mp4',
+        logo: '/assets/project-logo7.svg',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'NextJS',
+                path: '/assets/nextjs.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Python',
+                path: '/assets/python.svg',
+            },
+            {
+                id: 5,
+                name: 'Modal',
+                path: '/assets/modal.jpg',
+            },
+        ],
+    },
+    {
         title: 'Audio CNN - Sound Classification System',
         desc: 'Audio CNN is a deep learning project for environmental sound classification using a ResNet-based Convolutional Neural Network on the ESC-50 dataset',
         subdesc:
@@ -53,7 +99,7 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'Python',
+                name: 'TypeScript',
                 path: '/assets/typescript.png',
             },
             {
