@@ -315,7 +315,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Compusoftn et Cia Ltda – Unidad Educativa "Distrito Metropolitano"',
+        name: 'Compusoftn at Cia Ltda – Unidad Educativa "Distrito Metropolitano"',
         pos: 'Full Stack Developer Intern',
         duration: 'April 2024 - May 2024',
         title: "During my internship, I designed and developed a community banking web application actively used by over 200 users. I built the system end-to-end, implementing a backend with Node.js and MongoDB, and a responsive frontend using React.js, TailwindCSS, and Redux. I also deployed the application to cloud platforms (Render & Vercel), ensuring scalability, security, and real-world usability while strengthening my full-stack development skills.",

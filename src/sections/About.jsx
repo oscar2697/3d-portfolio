@@ -29,9 +29,9 @@ const About = () => {
                         <div>
                             <p className='grid-headtext'>Hello, I'm Oscar!</p>
                             <p className='grid-subtext'>
-                                As a Software Ingenieur with experience as a Frontend-Entwickler and solid Backend skills,
+                                As a Software Engineer with experience as a Frontend Developer and solid Backend skills,
                                 I create dynamic and responsive web applications.
-                                I love writing sauber und effizient code while continuously learning and improving!
+                                I love writing clean and efficient code while continuously learning and improving!
                             </p>
                         </div>
                     </div>
